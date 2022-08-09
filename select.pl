@@ -17,6 +17,8 @@ my $dbh = DBI->connect($dsn, $username, $password, \%attr);
 sub query_users {
     my ($dbh) = shift;
     my $sql = "SELECT first_name, last_name FROM `mock_data` LIMIT 10";
+
+    # SQL statement handle
     my $sth = $dbh->prepare($sql);
 
     $sth->execute();
