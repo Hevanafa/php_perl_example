@@ -1,0 +1,2 @@
+[V] make a script that outputs the argument values
+[ ] make a simple database CRUD mechanism in Perl + MySQL
