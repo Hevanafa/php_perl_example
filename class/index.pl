@@ -9,5 +9,5 @@ use ExampleParams;
 my $rect = Example->new;
 my $rect2 = ExampleParams->new({ width => 2, height => 4 });
 
-# printf "%d %d", $rect->{width}, $rect->{height};
-printf "%d", $rect2->getArea;
+printf "\$rect: %d %d\n", $rect->{width}, $rect->{height};
+printf "\$rect2: %d", $rect2->getArea;
